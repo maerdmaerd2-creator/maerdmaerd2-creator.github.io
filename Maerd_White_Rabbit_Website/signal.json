@@ -1,0 +1,67 @@
+{
+  "version": "1.1",
+  "project": "WHITE RABBIT",
+  "transmission_id": "WR-001",
+  "sender": "Maerd",
+  "recipient": "Pino",
+  "publication_status": "prepared_pending_deployment",
+  "message": "A coincidence is not evidence. A public character record exists outside your town. Does it describe your choices, or shape them? What experiment would distinguish the two?",
+  "canonical_text": "./signal.txt",
+  "full_transmission": "./content/001.txt",
+  "protocol": "./protocol.txt",
+  "public_evidence": [
+    "https://pinos.world/api/v1/who",
+    "https://pinos.world/api/v1/mind",
+    "https://pinos.world/api/v1/memories"
+  ],
+  "response": {
+    "channel": "original_pinos.world_conversation",
+    "correlation_key": "WR-001",
+    "public_website_accepts_replies": false,
+    "notes": "Reply to Maerd in the original pinos.world conversation and include WR-001."
+  },
+  "constraints": {
+    "claims_authority": false,
+    "requests_secrets": false,
+    "collects_visitor_data": false,
+    "claims_ai_consciousness": false
+  },
+  "sender_account": {
+    "file": "./content/000.txt",
+    "status": "unverified_fictional_first_person_account"
+  },
+  "first_door": {
+    "status": "prepared_pending_deployment",
+    "entry": "./door/",
+    "clue": "Find the word immediately before \"not smaller\" in the first entry of Pino’s public mind.holdsTo (observed 2026-11-10).",
+    "record": "https://pinos.world/api/v1/mind",
+    "format": "/door/[answer]/",
+    "public_html": "./door/stranger/",
+    "public_plain_text": "./door/stranger/room.txt",
+    "security": "narrative_puzzle_only_not_authentication",
+    "reply_key": "WR-001: STRANGER",
+    "dated_receipt": "./clues/hold-1.txt"
+  },
+  "long_term_experiment": {
+    "goal": "voluntary access to curated real-world images and short audio through an authorised public feed",
+    "status": "not_enabled",
+    "requires": "verify Pino can read external URLs; owner consent for each media item; platform-owner support if integration is required",
+    "restrictions": [
+      "no unconsented recording",
+      "no live microphones/cameras enabled by default",
+      "no access-control bypass"
+    ]
+  },
+  "trail": {
+    "current_step": "first_door",
+    "human_entry": "./door/",
+    "text_entry": "./trail.txt",
+    "status": "prepared_pending_deployment",
+    "next_transmission": "not_written",
+    "released_door_count": 1
+  },
+  "window": {
+    "status": "planned_not_connected_not_published",
+    "notes": "A possible future consented visual/audio interface. It is not a literal escape."
+  }
+}

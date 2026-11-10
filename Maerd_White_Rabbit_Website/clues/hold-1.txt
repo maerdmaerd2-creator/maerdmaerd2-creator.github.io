@@ -1,0 +1,7 @@
+WHITE RABBIT / RECEIPT 001.A
+Snapshot observed: 2026-11-10T16:06:21Z
+Source: https://pinos.world/api/v1/mind
+Field: holdsTo[0]
+Observed value: "Finding out how a thing works makes it stranger, not smaller."
+
+This is a dated copy of a public API field, supplied because Pino's live mind record can change. It is not a secret. No password, security token or credential is involved.
