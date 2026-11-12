@@ -28,3 +28,28 @@
 @media(max-width:920px){.door-layout{grid-template-columns:1fr}.door-copy{padding:65px 36px}.door-visual{min-height:200px;border-top:1px solid var(--ink);border-left:0}.door-lock-art{width:65px;height:100px;border-width:2px}.keyhole{transform:scale(.5)}.room-main{grid-template-columns:1fr}.room-left{padding:70px 36px}.room-right{min-height:310px}.room-symbol{font-size:150px}}
 @media(max-width:680px){.site-header nav{gap:12px}.site-header nav a{font-size:8px}.door-topline{padding:18px 22px;flex-wrap:wrap;font-size:9px}.door-copy{padding:55px 22px}.door-copy h2{font-size:clamp(60px,13vw,90px)}.door-input-line input{font-size:14px}.door-input-line button{min-width:100px;padding:10px;font-size:10px}.door-visual{min-height:175px}.door-visual>span{left:21px;font-size:9px}.door-clue{margin-top:35px}.sub-header{padding:20px;flex-wrap:wrap;font-size:9px}.sub-main{padding:80px 22px}.sub-main h1{font-size:clamp(57px,12vw,85px)}.room-left{padding:70px 22px}.room-main h1{font-size:clamp(65px,11vw,95px)}.room-right{padding:25px}.room-response{padding:20px}.room-response .button{margin-right:0}}
 
+
+/* WR v2.1: deliberately distinct visual reveal in the contact chapter. */
+.contact-section{background:#09110c;color:#e5eadf;padding:clamp(65px,8vw,124px) clamp(20px,7vw,115px);position:relative;overflow:hidden}
+.contact-section::before{content:"";pointer-events:none;position:absolute;inset:0;background:radial-gradient(ellipse at 88% 4%,rgba(37,141,80,.18),transparent 40%);opacity:.8}
+.contact-intro,.contact-reply,.contact-art,.contact-next{position:relative;z-index:1;max-width:1180px;margin:0 auto}
+.contact-kicker,.contact-evidence,.contact-reply figcaption,.contact-next>span,.contact-art>div span{font:700 11px/1.6 var(--mono);letter-spacing:.12em;color:#7ecca0}
+.contact-intro h2{font:400 clamp(51px,7.7vw,120px)/.95 var(--serif);letter-spacing:-.066em;max-width:1000px;margin:25px 0 22px}
+.contact-intro h2 em{color:#87d9a7;font-weight:400}.contact-intro>p:not(.contact-evidence){font:400 clamp(18px,2vw,25px)/1.5 var(--serif);max-width:790px}
+.contact-evidence{border-top:1px solid rgba(187,240,196,.23);padding-top:18px;margin-top:30px;color:#91a99b}
+.contact-reply{margin-top:70px;border-left:3px solid #8cdb95;padding:5px 0 5px clamp(18px,4vw,62px)}
+.contact-reply blockquote{margin:0 0 20px;font:italic 400 clamp(30px,4.2vw,64px)/1.17 var(--serif);letter-spacing:-.035em;max-width:1060px;color:#eef6e7}
+.contact-reply figcaption{margin:0}
+.contact-art{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.85fr);align-items:stretch;border:1px solid rgba(169,220,181,.28);margin-top:82px;min-height:350px}
+.contact-art img{width:100%;height:100%;max-height:520px;object-fit:cover;display:block;filter:saturate(.83)}
+.contact-art>div{padding:clamp(25px,4vw,55px);display:flex;flex-direction:column;justify-content:space-between;border-left:1px solid rgba(169,220,181,.28);background:#0a1a10}
+.contact-art>div p{font:400 clamp(24px,2.7vw,41px)/1.2 var(--serif);letter-spacing:-.04em;color:#d8efd6}
+.contact-next{margin-top:65px;border-top:1px solid #355c41;padding-top:27px}
+.contact-next p{font:400 clamp(24px,3.3vw,47px)/1.2 var(--serif);letter-spacing:-.038em;max-width:900px}
+.contact-next small{color:#9cb09e;font-family:var(--mono);font-size:12px}
+@media(max-width:820px){.contact-art{grid-template-columns:1fr}.contact-art>div{border-left:0;border-top:1px solid rgba(169,220,181,.28);min-height:160px}.contact-art>div p{max-width:580px}}
+@media(max-width:560px){.contact-intro h2{font-size:clamp(49px,12vw,75px)}.contact-reply{margin-top:40px}.contact-art{margin-top:44px;min-height:0}.contact-art>div{min-height:150px}.contact-next{margin-top:45px}}
+@media(prefers-reduced-motion:reduce){.ticker-track,.doorway{animation:none!important}html{scroll-behavior:auto}}
+
+/* 2.2: the additional Platform link must wrap instead of expanding mobile viewport. */
+@media (max-width:680px){.site-header{flex-wrap:wrap;align-content:center;gap:11px;padding-block:12px}.site-header nav{width:100%;display:flex;justify-content:space-between;gap:5px 9px;flex-wrap:wrap}.site-header nav a{font-size:9px;white-space:nowrap}.site-header .brand{margin-right:auto}}

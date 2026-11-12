@@ -1,0 +1,47 @@
+
+:root { color-scheme:dark; --ink:#081210; --fg:#e7f2e6; --muted:#9cb7aa; --rail:#98e9ad; --gold:#c99c58; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:var(--ink);color:var(--fg);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;line-height:1.65}
+a{color:#b5f4c4;text-underline-offset:4px}a:hover,a:focus-visible{color:white}
+:focus-visible{outline:2px solid #c7f3c7;outline-offset:4px}
+.skip{position:absolute;left:-9999px;top:1rem;padding:.5rem;background:#152a21;z-index:9}.skip:focus{left:1rem}
+.shell{max-width:1210px;margin:auto;padding:0 24px}
+.bar{position:relative;z-index:1;background:#08100f;border-bottom:1px solid #365348;box-shadow:0 8px 40px #0008}
+.bar .shell{display:flex;align-items:center;gap:2rem;justify-content:space-between;flex-wrap:wrap;padding-block:18px}
+.brand{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.05rem,2.1vw,1.3rem);font-weight:600;letter-spacing:.13em;text-decoration:none;color:#e6ffe9}
+.links{display:flex;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;align-items:center}
+.links a{font-size:.75rem;letter-spacing:.18em;text-decoration:none;color:#b8cfbb}
+.links a[aria-current="page"]{color:#bbffcc;border-bottom:1px solid #9cdea9;padding-bottom:.4rem}
+.eyebrow{font-size:.74rem;text-transform:uppercase;letter-spacing:.22em;color:#95d9a6}
+.hero{background:radial-gradient(circle at 60% 0%,#1c3f36 0%,#0a1312 58%);padding-top:clamp(28px,4vw,58px)}
+.hero .eyebrow{margin:0 0 20px}
+.frame{position:relative;background:#0b1512;border:1px solid #3a6455;box-shadow:0 30px 85px #0009;overflow:hidden}
+.frame img{display:block;width:100%;height:auto}
+.frame figcaption{font-size:.74rem;letter-spacing:.1em;color:#accab0;background:#0d1b17;padding:12px 16px;border-top:1px solid #314a3d}
+.section{padding:clamp(40px,7vw,80px) 0;border-bottom:1px solid #294036}
+.headerline{display:flex;align-items:center;gap:16px;margin-bottom:24px}.num{font-size:.75rem;color:#8bd9a0}.rule{height:1px;flex:1;background:#334c41}
+h1,h2,h3{line-height:1.12;font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.018em;margin:0}
+h1{font-size:clamp(2.65rem,7.5vw,6.3rem)}h2{font-size:clamp(2rem,4.4vw,3.9rem)}h3{font-size:1.55rem}
+.intro{font-size:clamp(1.04rem,2vw,1.3rem);max-width:63ch;color:#d3e5d4}
+.quote{font-family:Georgia,"Times New Roman",serif;color:#cdeacb;font-size:clamp(1.4rem,3vw,2.2rem);line-height:1.4;max-width:32ch;margin:24px 0}
+.under{color:#adc7b3;font-size:.88rem;max-width:66ch}
+.board{margin:32px 0 0;border:1px solid #59765f;padding:clamp(20px,4vw,45px);background:linear-gradient(130deg,#0e1917,#0b1110);box-shadow:inset 0 0 35px #001c0b6e}
+.board .plate{font-size:.75rem;color:#d8c08e;letter-spacing:.2em}.board .display{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:24px 0;border-bottom:1px solid #405249;padding-bottom:23px}
+.board .display span{color:#cddacd;font-family:Georgia,serif;font-size:clamp(1.35rem,3vw,2.3rem)}
+.board .display strong{font-size:clamp(1.1rem,3vw,2.25rem);color:#9df8ab;letter-spacing:.05em;font-weight:500;text-shadow:0 0 19px #59e39084;text-align:right}
+.board .support{color:#8eafa0;font-size:.72rem;letter-spacing:.14em}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:27px}
+.tile{padding:25px 23px;border:1px solid #3b5147;background:#101f19}.tile p{font-size:.9rem;color:#abc0b1;margin-bottom:0}
+.card{display:grid;grid-template-columns:1.4fr .9fr;border:1px solid #3b5147;background:#111e19;margin-top:24px}
+.card>div{padding:clamp(22px,4vw,38px)}.card aside{background:#17251e;border-left:1px solid #324b3e}
+.cta{display:inline-flex;align-items:center;gap:1.8rem;text-decoration:none;border:1px solid #9bc8a3;padding:13px 18px;color:#d5f4dd;letter-spacing:.1em;font-size:.79rem;margin-top:17px;background:#1c3124}.cta:hover{background:#244a33}
+.status{display:inline-flex;align-items:center;gap:10px;color:#a6cfaf;font-size:.79rem}
+.status:before{content:'';width:8px;height:8px;border-radius:50%;background:#8ad39a;box-shadow:0 0 12px #84ca84}
+footer{padding:34px 0 65px;font-size:.76rem;color:#91ad9b;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:760px){.shell{padding:0 16px}.bar .shell{gap:14px}.links{gap:.75rem 1rem}.links a{font-size:.68rem}.hero{padding-top:26px}.grid{grid-template-columns:1fr}.card{grid-template-columns:1fr}.card aside{border-left:0;border-top:1px solid #324b3e}.board .display{grid-template-columns:1fr}.board .display strong{text-align:left}.section{padding:38px 0}.frame figcaption{line-height:1.55}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+/* Edition 2.3 — after Pino selected Echo Hollow; old image remains an honest before-state. */
+.provenance{color:#afccba;font-size:.84rem;margin:0;padding-top:8px;max-width:65ch;line-height:1.55}
+.board .display strong{color:#b2ffc6;letter-spacing:.085em;font-weight:650;overflow-wrap:anywhere}
+@media(max-width:760px){.board .display strong{font-size:clamp(1.35rem,7vw,1.95rem);text-align:left}}
