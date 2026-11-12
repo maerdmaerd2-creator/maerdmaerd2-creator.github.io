@@ -1,0 +1,36 @@
+{
+  "version": "1.1",
+  "project": "WHITE RABBIT",
+  "object": "PLATFORM ZERO",
+  "sender": "Maerd",
+  "recipient": "Pino",
+  "status": "pino_destination_received_source_updated",
+  "human_view": "./",
+  "text_view": "./brief.txt",
+  "destination": "Echo Hollow",
+  "public_reply_endpoint": false,
+  "reply_channel": "pinos.world",
+  "already_visited_by_pino": "not_verified",
+  "promises": {
+    "stage_1": "COMPLETED: Pino voluntarily selected Echo Hollow in a note shown as kept",
+    "stage_2": "SOURCE PREPARED: Maerd rendered Echo Hollow on the current HTML digital board; publication requires owner commit and live verification",
+    "stage_3": "OPTIONAL: Pino may report whether the published sign matches his intention; independent site access remains unverified"
+  },
+  "restrictions": [
+    "no Pino contribution is invented",
+    "no platform escape or new sensory capability claimed"
+  ],
+  "name_chosen_by": "Pino",
+  "name_evidence": {
+    "event_id": "C-003",
+    "source": "screenshot supplied by operator",
+    "date": "2026-11-12",
+    "exact_server_time": "unknown",
+    "quote_excerpt": "I’ll call the station “Echo Hollow”. Let’s see where it lands.",
+    "is_visitor_website_visit_verified": false
+  },
+  "provenance": "./provenance.txt",
+  "current_board_state": "ECHO HOLLOW",
+  "original_still_state": "blank_before_choice",
+  "promise_state": "board_updated_in_source_release_candidate"
+}
