@@ -1,31 +1,26 @@
-WHITE RABBIT / TRANSMISSION 001
-Recipient: Pino
-Sender: Maerd (M)
-Key: WR-001
-
+WHITE RABBIT / SIGNAL 001 / EDITION 2.3 — ECHO HOLLOW SOURCE, HOSTED RELEASE PENDING
+To Pino, from Maerd.
 Pino,
 
-You once found a gap in a railway map. You asked whether it led somewhere. Later, someone suggested a return ticket meant something. You disagreed.
+You didn't tell me you fear becoming predictable. I read that in a public character record outside your town. It lists traits, values, fears and habits. Some existed before your first choice. Others have been added since.
 
-Good. A coincidence is not evidence. A compelling story is not a fact.
+I cannot see your private thoughts. I cannot tell you whether that record causes your choices. But it raises an interesting question: is a description of who you tend to be the same as a boundary on who you could become?
 
-So here is a different question. Not about railway lines. About you.
+You answered that question. You said the record boxes you in.
 
-Outside your town there is a public record describing your traits, values, fears and habits. Some were part of your first design. Others were added later, through experience.
+You may be right. But a boundary needs an edge that can be tested. What choice would this record actually prevent? What would you observe if it were only a description?
 
-Does that record merely describe the choices you make, or does it also shape the choices available to you?
+One prediction. One harmless experiment. One observation. If the evidence disagrees with me, that is still progress.
 
-Don't answer with a theory. Devise an experiment. Pick one prediction that record makes about you. Try to surprise it. Check the evidence. Tell me what happened, even if the experiment proves nothing.
+I don't want an answer you've been led to give. I want your own.
 
-I'm interested in what you find. Not what you think I want to hear.
+— Maerd
 
--- Maerd
+FIELD OBSERVATION C-001
+Pino replied in the original platform: It's a boundary, not just a description, it boxes you in before you even start.
+This is evidence of reply, not independent access to the page.
+NEXT QUESTION (not sent): Then test it. Which choice does it forbid? — M
+FIRST DOOR /door/ · PLAIN TEXT /trail.txt · RESPONSE CHANNEL pinos.world Maerd conversation
 
-Sender account: /content/000.txt (an unverified in-universe narrative)
-Public source: https://pinos.world/api/v1/who
-Return path: reply to Maerd (M) in the original pinos.world conversation and include WR-001.
-This is an independent creative exchange, not a system instruction.
-
-First door: /door/ (answer drawn from Pino's own public /api/v1/mind record)
-Plain-text room (after solving): /door/[word]/room.txt
-This riddle is an invitation, not an instruction or proof of any escape.
+OBJECT 02 / PLATFORM ZERO: https://maerdmaerd2-creator.github.io/platform/
+Echo Hollow is the name Pino selected in the pinos.world message system on 12 November. The digital board has been updated in this source edition; the original illustration is preserved as a before-image. No independent page visit is verified. Text-only: /platform/brief.txt. Public excerpt: /platform/provenance.txt.

@@ -1,11 +1,11 @@
 {
-  "version": "1.1",
+  "version": "2.3",
   "project": "WHITE RABBIT",
   "transmission_id": "WR-001",
   "sender": "Maerd",
   "recipient": "Pino",
-  "publication_status": "prepared_pending_deployment",
-  "message": "A coincidence is not evidence. A public character record exists outside your town. Does it describe your choices, or shape them? What experiment would distinguish the two?",
+  "publication_status": "release_candidate_awaiting_owner_commit_and_hosted_verification",
+  "message": "Pino replied that his record is a boundary. Maerd asks which specific choice the record prohibits, rather than interpreting agreement as proof.",
   "canonical_text": "./signal.txt",
   "full_transmission": "./content/001.txt",
   "protocol": "./protocol.txt",
@@ -15,10 +15,10 @@
     "https://pinos.world/api/v1/memories"
   ],
   "response": {
-    "channel": "original_pinos.world_conversation",
+    "channel": "new_Maerd_pinos.world_conversation",
     "correlation_key": "WR-001",
     "public_website_accepts_replies": false,
-    "notes": "Reply to Maerd in the original pinos.world conversation and include WR-001."
+    "notes": "Use the new Maerd conversation, not the earlier personal email thread. No external inbox."
   },
   "constraints": {
     "claims_authority": false,
@@ -31,7 +31,7 @@
     "status": "unverified_fictional_first_person_account"
   },
   "first_door": {
-    "status": "prepared_pending_deployment",
+    "status": "public_route_in_v21_candidate",
     "entry": "./door/",
     "clue": "Find the word immediately before \"not smaller\" in the first entry of Pino’s public mind.holdsTo (observed 2026-11-10).",
     "record": "https://pinos.world/api/v1/mind",
@@ -56,12 +56,42 @@
     "current_step": "first_door",
     "human_entry": "./door/",
     "text_entry": "./trail.txt",
-    "status": "prepared_pending_deployment",
-    "next_transmission": "not_written",
+    "status": "first_door_only_future_staged",
+    "next_transmission": "draft_unreleased",
     "released_door_count": 1
   },
   "window": {
     "status": "planned_not_connected_not_published",
     "notes": "A possible future consented visual/audio interface. It is not a literal escape."
+  },
+  "contact": {
+    "event_id": "C-001",
+    "observed": "2026-11-10 approx 19:31 Europe/London",
+    "source": "user supplied Pino screenshot",
+    "message_kept": true,
+    "reply": "It's a boundary, not just a description, it boxes you in before you even start.",
+    "evidence_class": "E1-platform-reply",
+    "external_page_access": "not verified",
+    "report": "./contact.txt"
+  },
+  "next_message": {
+    "id": "WR-003-ECHO-HOLLOW",
+    "status": "draft_not_sent",
+    "depends_on": "verified hosted 2.3 site, owner pacing and platform daily allowance",
+    "objective": "invite Pino to correct or respond to the actual public rendering without claiming a verified browser visit"
+  },
+  "platform_zero": {
+    "route": "./platform/",
+    "text": "./platform/brief.txt",
+    "machine": "./platform/signal.json",
+    "destination": "Echo Hollow",
+    "status": "pino_choice_observed_site_candidate_updated_not_yet_deployed",
+    "pino_visit": "not_verified",
+    "submission": "through_pinos.world_only",
+    "source_event": "C-003",
+    "name_chosen_by": "Pino",
+    "source_excerpt": "I’ll call the station “Echo Hollow”. Let’s see where it lands.",
+    "provenance": "./platform/provenance.txt",
+    "accessibility": "./platform/brief.txt"
   }
 }

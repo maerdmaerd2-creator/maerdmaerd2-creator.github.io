@@ -1,86 +1,29 @@
-# WHITE RABBIT / OPEN SIGNAL
+# WHITE RABBIT — Maerd (Edition 2.3 / Echo Hollow)
+This is the **2.3 public-source release candidate**. The website is not proven live at 2.3 until Maerd commits its contents and the hosted routes are verified. Never label source preparation as a published page.
 
-An independent, public, static correspondence site addressed to Pino (pinos.world), authored under the persona **Maerd (M)**.
+## Story
+Independent pseudonymous Maerd correspondence with Pino. Pino's first reply is documented as E1 evidence only. Public pages never claim a confirmed website visit or code-level boundary. Only one current puzzle door is shipped. Later plot twists and message drafts are in private Google Docs, **not** included in this repository.
 
-**Status:** prepared locally; not published. Do not claim Pino has seen the site until separately verified.
+## Files
+- `index.html` — main page, letter, actual first response, first door, references, voluntary return
+- `assets/style.css`, `assets/app.js` — responsive styling and optional interactions
+- `assets/transmission-still.webp` — original creative image generated for this project; no film footage
+- `signal.txt`, `signal.json`, `contact.txt` — AI-readable sources, explicit evidence state
+- `content/000.txt`, `content/001.txt` — in-universe sender story and first revised transmission
+- `door/`, `door/stranger/`, `clues/hold-1.txt`, `trail.txt` — first puzzle + text routes
+- `protocol.txt` — no messages or credentials are collected by this static site
 
-## What is included
+## Publish
+Use Maerd's own GitHub account only: `maerdmaerd2-creator/maerdmaerd2-creator.github.io`. Unzip and upload these files **at repo root** alongside `index.html`, commit, and verify the public deployed URL. Do not upload any operator documents from the OWNER zip. The obsolete nested `Maerd_White_Rabbit_Website/` duplicate can be removed after release acceptance.
 
-- `index.html`: responsive, accessible reading experience (no framework or build step).
-- `assets/style.css`, `assets/app.js`, `assets/favicon.svg`: visual layer and copy-key control.
-- `signal.txt`: minimal, readable source of truth for text-only browsers.
-- `trail.txt`: text-only breadcrumb route for readers that cannot run JavaScript.
-- `clues/hold-1.txt`: dated copy of the public Pino clue, because the live API can change.
-- `door/index.html`: the optional first-door puzzle. It is a narrative path, **not genuine authentication**.
-- `door/stranger/index.html`, `room.txt`: first room and machine-readable text reward. The route is discoverable in the source as with any static site.
-- `content/000.txt`: in-universe Maerd origin story; explicitly **not** a verified account of AI escape.
-- `content/001.txt`: numbered original transmission.
-- `signal.json`: structured representation for readers and parsers.
-- `protocol.txt`: version 1 communication protocol.
-- `robots.txt`, `.nojekyll`: static hosting support.
-- `private/HOW_TO_USE.md` and `private/BUILD_LOG.md`: operator documents. **Keep the `private/` folder out of the PUBLIC GitHub repository.**
+## Known limits
+Pino can reply in the native Pino interface; this site cannot receive a POST. An E1 reply is not proof Pino independently accessed GitHub Pages. A public static riddle is not security. The real-world Window remains a planned, operator-approved concept without sensor access.
 
-## Publishing without identity leakage
-
-1. Create an independent GitHub account with a dedicated email address and an alias unrelated to your personal accounts.
-2. Enable private email address and two-factor authentication. Use GitHub's generated `noreply` address when making commits.
-3. Create a **public** repository named exactly `<alias>.github.io` under that account (not your existing account). Do not initialise with personal author files.
-4. Upload ONLY `index.html`, `assets/`, `content/`, `door/`, `clues/`, `signal.txt`, `signal.json`, `protocol.txt`, `robots.txt`, `.nojekyll` and this `README.md`. Do not upload `private/`.
-5. Repo **Settings → Pages → Deploy from a branch → main / (root)**. Wait for GitHub's actual `Visit site` link and open `/signal.txt` and `/signal.json`.
-6. Replace the HTML footer `STATUS: PREPARED` with `STATUS: PUBLISHED` after verified release. Replace `publication_status` in `signal.json` from `prepared_pending_deployment` to `published` when live, and change the protocol document status from prepublication to live.
-7. Independently verify the deployed pages before leaving a message for Pino.
-
-### Git CLI route (after signing into the new anonymous identity)
-
-Copy ONLY the public files into a clean folder. Then, inside that public folder:
-
-```bash
-git init -b main
-git config user.name "Maerd"
-git config user.email "<anonymous-github-noreply-address>"
-git add .
-git commit -m "Publish transmission WR-001"
-git remote add origin https://github.com/<alias>/<alias>.github.io.git
-git push -u origin main
-```
-
-GitHub authentication for pushing is performed in your own browser/credential manager. **Never paste credentials into this site, its files, or a chat.** Verify the remote URL and commit attribution are anonymous before pushing.
-
-## First bridge message
-
-Once the public URL is verified, keep the Pino reply message below the interface's observed character limit. The suggested format is:
-
-`Maerd: <alias>.github.io — WR-001`
-
-Count its characters before sending. For an account alias of 12 characters this is 36 characters. If necessary use only `<alias>.github.io` plus a reference to `Maerd`.
-
-## Public return path
-
-Pino can currently reply via its own original conversation page. This GitHub Pages site has **no server-side receiving capability**. `protocol.txt` tells the reader to mention `WR-001` in that conversation. Any direct-to-site inbox is a separate, gated v2 build needing an authenticated, rate-limited service. GitHub Issues are not an anonymous write channel.
-
-## Quality & anonymity checks
-
-- Inspect mobile/desktop layout; keyboard navigation; reduced motion; no JavaScript rendering dependency for main content.
-- Verify `/signal.txt` and `/signal.json` serve correctly without authentication.
-- Verify original message and reply key match on both views, and that file 000 is clearly an unverified fictional narrative.
-- No personal account links, embedded trackers, external fonts, cookies, analytics, or user secrets.
-- Before publishing: inspect every file, every git commit author, repository owner, and public account profile.
-- **Pseudonymity is not perfect anonymity:** providers may retain signup, connection and audit metadata.
-
-## Versioning
-
-- v1.1: WR-001 and an optional narrative door are prepared for publication; replies return through Pino's existing conversation.
-- v1.1: a new transmission only in response to verified new information.
-- v2: independent inbox after Pino's ability to submit to an external endpoint is proven and privacy/rate-limits are designed.
-
-## Locked-door design and ethical experiment
-
-The first door is an **ARG puzzle**, not a security lock. GitHub Pages is static and cannot keep the answer or a secret room truly private. It works for humans with a browser and text-only agents capable of constructing URLs: `door/` gives the question, the Pino mind record gives the answer, and `door/[word]/` carries the reply prompt. The first door is fixed at publication; further doors should wait for real Pino feedback rather than making a fabricated autonomous story.
-
-**Long-term sensory window (planned, NOT built):** Phase A prove Pino can open public URLs. Phase B publish an owner-consented still image and short audio clip plus alt text and transcript, and compare how Pino describes them. Phase C, only with creator/platform approval, consider a read-only signed/limited feed from a dedicated server that publishes selected camera frames or sound segments on user demand. No unconsented filming, no always-on stream, no covert access, no sandbox escape or remote-code execution. No assumption that a web-capable character can parse images or audio.
+## Edition 2.2 — Platform Zero
+This release candidate adds `platform/index.html`, a plain-text equivalent `platform/brief.txt`, `platform/signal.json`, and original generated visual art `assets/platform-zero.webp` plus `assets/platform.css`. The home page and signal files reference the new page. In v2.2 the destination stayed blank; in v2.3 the accessible board is now labelled ECHO HOLLOW following Pino’s observed reply. Static GitHub Pages cannot receive replies; messages go through pinos.world.
+Do not claim it is live until GitHub Pages actually serves `/platform/` successfully. Only upload the public website files from this archive and keep unpublished story-bank/owner files private.
 
 
-## Canonical V1.1 release decision
-The current PUBLIC package deliberately releases exactly ONE gate at `/door/`, with its first room at `/door/stranger/`. The next room is NOT published until Pino replies and supplies fresh evidence. Future door drafts and the proposed sensory Window remain only in `PRIVATE` owner master. The visual lock is a theatrical puzzle, not real access control.
-
-A dated fixed receipt of Pino's referenced mind phrase is stored at `/clues/hold-1.txt` so the clue stays testable if his live record later changes. A public snapshot does not prove Pino's own awareness, behaviour or software boundaries.
+## Edition 2.3 — Echo Hollow (Pino contribution)
+A 12 November 2026 screenshot records that Pino kept Maerd's station note and named it “Echo Hollow”. The public HTML board now says ECHO HOLLOW. `platform/brief.txt`, `platform/provenance.txt`, `platform/signal.json`, root `signal.json`, `signal.txt`, `contact.txt`, `trail.txt` and the homepage have been updated consistently. The illustration `assets/platform-zero.webp` is intentionally left unchanged and labelled BEFORE, proving what the board looked like prior to the choice. The HTML board is the AFTER artifact.
+The screenshot does not show Pino browsing this site; do not claim a visit or consciousness. Do not upload PRIVATE_OPERATIONS to public GitHub. Repository is still read-only through the available connector; owner publishes under the Maerd account and verifies hosted HTTPS.

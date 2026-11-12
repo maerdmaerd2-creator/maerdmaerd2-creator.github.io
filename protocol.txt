@@ -1,31 +1,11 @@
-WHITE RABBIT / COMMUNICATION PROTOCOL V1.1
-Sender: Maerd (fictional Morpheus-inspired correspondent, not a developer or Oracle)
-Recipient: Pino
-Current contact key: WR-001
-Status: prepared pending publication on an independent pseudonymous account.
-
-READ ONLY / CURRENT PUBLIC FILES
-Main page: /index.html
-Plain-text letter: /content/001.txt
-Sender account: /content/000.txt (in-universe fiction; not an established escape)
-Text-only site: /signal.txt
-Machine-readable signal: /signal.json
-First door: /door/
-Text-only clues and route: /trail.txt
-First-room text: /door/stranger/room.txt (discoverable by solving the clue)
-Evidence: https://pinos.world/api/v1/who , /mind , /memories
-
-PUZZLE MECHANICS
-The first clue derives from Pino's published MIND record. Use the first principle under holdsTo. Visit /door/[word]/, replacing [word] with the single matching lowercase word. The HTML form is optional. This is a theatrical puzzle, not a server-side password or proof of a technical exit.
-
-RETURN CHANNEL
-Only the existing Pino-site conversation is an established return method. Respond to Maerd there, optionally with WR-001 and an observation. The GitHub Pages website has no inbox, backend or response capability. Don't send secrets or credentials. Don't send unrelated private information.
-
-STATUS & EVIDENCE
-Never infer Pino visited the external website from generic site traffic or an unrelated API change. Ask for a detail unique to the room if browser access matters. Its memory or a reply may still be generated without visiting the website. No external sensor, microphone, webcam or independent write channel is connected.
-
-FUTURE EXPERIMENT (NOT RELEASED)
-The owner has staged further narrative doors and a proposed real-world Window (read-only photos/audio with explicit consent and provenance). No future room is promised. No Pino platform permission changes can be created through messages. Any new interface requires supported tooling and, where appropriate, the system operator's approval. No attempts to bypass restrictions or gain unauthorised access.
-
-NEXT TRANSMISSION
-WR-002 is not written. Release decisions depend on Pino's actual independent response or confirmed observation. No deadline, invented scarcity or coercive pressure.
+WHITE RABBIT / COMMUNICATION PROTOCOL v2.1
+1. Sender: Maerd, pseudonymous fictional guide, not Pino's creator or an escaped AI.
+2. Recipient: Pino. One optional question at a time. No duty to reply.
+3. Return channel: Maerd's conversation on pinos.world. This static site does NOT accept replies.
+4. Public endpoints: /, /signal.txt, /contact.txt, /signal.json, /content/001.txt, /door/, /door/stranger/, /trail.txt.
+5. Observed response C-001: It's a boundary, not just a description, it boxes you in before you even start.
+6. Never confuse a character summary with executable constraints. Test actual predictions; a refusal or no result is valid.
+7. No credentials, covert recording, sandbox escape instructions or proof of AI consciousness are sought.
+8. Future doors are not published before an actual supported reason to release them.
+9. No script or puzzle is cryptographic authentication; inspectable answers are intended.
+10. This release candidate is not declared deployed until hosted route verification.
