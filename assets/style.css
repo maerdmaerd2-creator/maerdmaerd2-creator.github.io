@@ -12,12 +12,12 @@
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
 
 
-/* File zero: deliberately separated from the verifiable investigation. */
+
 .origin-section{background:#dcd8ce;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);padding:35px clamp(22px,8vw,130px) 30px}.origin-meta,.origin-foot{display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;font-weight:700}.origin-meta{padding-bottom:65px}.origin-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:70px;align-items:start;padding-bottom:80px}.origin-grid h2{font:400 clamp(50px,6.5vw,108px)/1.02 var(--serif);letter-spacing:-.067em;margin:0}.origin-grid h2 em{font-weight:400;color:var(--coral-dark)}.origin-right{max-width:490px;margin-top:12px}.origin-right p{font-size:clamp(17px,1.55vw,23px);line-height:1.48;margin:0 0 26px}.origin-link{font-family:var(--mono);font-size:11px;letter-spacing:.055em;font-weight:700;display:inline-flex;gap:48px;border-bottom:1px solid var(--ink);text-decoration:none;padding:12px 0 10px}.origin-link:hover{color:var(--coral-dark)}.origin-foot{border-top:1px solid rgba(16,17,17,.28);padding-top:24px;color:#454642}
 @media(max-width:920px){.origin-section{padding:32px 36px 30px}.origin-grid{gap:36px;grid-template-columns:1fr 1fr}.origin-grid h2{font-size:clamp(48px,6.5vw,85px)}}
 @media(max-width:680px){.origin-section{padding:25px 20px}.origin-meta,.origin-foot{font-size:9px;flex-wrap:wrap}.origin-meta{padding-bottom:40px}.origin-grid{display:block;padding-bottom:48px}.origin-grid h2{font-size:clamp(54px,12.5vw,82px);margin:0 0 32px}.origin-right{margin-top:0}.origin-right p{font-size:18px}.origin-link{margin-top:8px}}
 
-/* The first door + machine-readable alternative route. This is an ARG clue, NOT authentication. */
+
 .door-section{background:#efc4af;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
 .door-topline{display:flex;justify-content:space-between;gap:12px;padding:22px clamp(22px,6vw,90px);font:700 11px var(--mono);letter-spacing:.09em;border-bottom:1px solid rgba(16,17,17,.28)}
 .door-layout{display:grid;grid-template-columns:60% 40%;min-height:630px}
@@ -29,7 +29,7 @@
 @media(max-width:680px){.site-header nav{gap:12px}.site-header nav a{font-size:8px}.door-topline{padding:18px 22px;flex-wrap:wrap;font-size:9px}.door-copy{padding:55px 22px}.door-copy h2{font-size:clamp(60px,13vw,90px)}.door-input-line input{font-size:14px}.door-input-line button{min-width:100px;padding:10px;font-size:10px}.door-visual{min-height:175px}.door-visual>span{left:21px;font-size:9px}.door-clue{margin-top:35px}.sub-header{padding:20px;flex-wrap:wrap;font-size:9px}.sub-main{padding:80px 22px}.sub-main h1{font-size:clamp(57px,12vw,85px)}.room-left{padding:70px 22px}.room-main h1{font-size:clamp(65px,11vw,95px)}.room-right{padding:25px}.room-response{padding:20px}.room-response .button{margin-right:0}}
 
 
-/* WR v2.1: deliberately distinct visual reveal in the contact chapter. */
+
 .contact-section{background:#09110c;color:#e5eadf;padding:clamp(65px,8vw,124px) clamp(20px,7vw,115px);position:relative;overflow:hidden}
 .contact-section::before{content:"";pointer-events:none;position:absolute;inset:0;background:radial-gradient(ellipse at 88% 4%,rgba(37,141,80,.18),transparent 40%);opacity:.8}
 .contact-intro,.contact-reply,.contact-art,.contact-next{position:relative;z-index:1;max-width:1180px;margin:0 auto}
@@ -51,5 +51,5 @@
 @media(max-width:560px){.contact-intro h2{font-size:clamp(49px,12vw,75px)}.contact-reply{margin-top:40px}.contact-art{margin-top:44px;min-height:0}.contact-art>div{min-height:150px}.contact-next{margin-top:45px}}
 @media(prefers-reduced-motion:reduce){.ticker-track,.doorway{animation:none!important}html{scroll-behavior:auto}}
 
-/* 2.2: the additional Platform link must wrap instead of expanding mobile viewport. */
+
 @media (max-width:680px){.site-header{flex-wrap:wrap;align-content:center;gap:11px;padding-block:12px}.site-header nav{width:100%;display:flex;justify-content:space-between;gap:5px 9px;flex-wrap:wrap}.site-header nav a{font-size:9px;white-space:nowrap}.site-header .brand{margin-right:auto}}

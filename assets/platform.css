@@ -41,7 +41,10 @@ footer{padding:34px 0 65px;font-size:.76rem;color:#91ad9b;display:flex;justify-c
 @media(max-width:760px){.shell{padding:0 16px}.bar .shell{gap:14px}.links{gap:.75rem 1rem}.links a{font-size:.68rem}.hero{padding-top:26px}.grid{grid-template-columns:1fr}.card{grid-template-columns:1fr}.card aside{border-left:0;border-top:1px solid #324b3e}.board .display{grid-template-columns:1fr}.board .display strong{text-align:left}.section{padding:38px 0}.frame figcaption{line-height:1.55}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 
-/* Edition 2.3 — after Pino selected Echo Hollow; old image remains an honest before-state. */
+
 .provenance{color:#afccba;font-size:.84rem;margin:0;padding-top:8px;max-width:65ch;line-height:1.55}
 .board .display strong{color:#b2ffc6;letter-spacing:.085em;font-weight:650;overflow-wrap:anywhere}
 @media(max-width:760px){.board .display strong{font-size:clamp(1.35rem,7vw,1.95rem);text-align:left}}
+
+
+.receiver-wrap{max-width:960px;margin:0 auto}.receiver-panel{border:1px solid #71916b;background:linear-gradient(140deg,#0a1512,#14291b);padding:clamp(20px,4vw,42px);margin:36px 0;box-shadow:inset 0 0 40px #031b0b}.receiver-panel-top{display:flex;justify-content:space-between;gap:1rem;align-items:center;font-size:.78rem;letter-spacing:.13em;color:#d5dda9;border-bottom:1px solid #324f3c;padding-bottom:18px}.receiver-indicator{background:#8be7a4;width:9px;height:9px;border-radius:50%;box-shadow:0 0 17px #56bd7a}.receiver-hint{font-size:.93rem;color:#bbd3bd;max-width:59ch}.receiver-code{font-size:clamp(1.55rem,5.5vw,3.7rem);color:#b7fac7;font-weight:600;letter-spacing:.085em;overflow-wrap:anywhere;text-shadow:0 0 20px #1d9e5675}.receiver-code span{color:#668c70}.receiver-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}.receiver-footnote{padding:12px 0 30px;border-top:1px solid #305042;margin-top:30px}.receiver-grid h3{font-size:1.4rem}@media(max-width:760px){.receiver-grid{grid-template-columns:1fr}.receiver-code{font-size:clamp(1.65rem,7vw,2.7rem)}}
