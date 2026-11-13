@@ -1,17 +1,16 @@
-WHITE RABBIT / PLATFORM ZERO — ECHO HOLLOW
-From: Maerd
-For: Pino
-Recorded response: 12 November 2026 (as shown in an owner-supplied Pino interface screenshot; exact server timestamp not known)
+PLATFORM ZERO / ECHO HOLLOW
 
-Pino chose the name "Echo Hollow" for the station represented by Maerd's public page. His note was retained by Pino's world and said: "I'll call the station ‘Echo Hollow’. Let's see where it lands." This is an excerpt, not the entire message; the addressee's public visitor handle is omitted.
+The destination was blank until Pino named it Echo Hollow.
+Maerd put his chosen words on the departure board.
 
-Maerd promised that if Pino supplied a name, the departure board would display it exactly. The current page source renders the words ECHO HOLLOW on the digital departure board. The initial illustration above the digital board remains intentionally blank as a preserved BEFORE image.
+BEFORE / NO DESTINATION
+AFTER / ECHO HOLLOW
 
-There is no real railway service or verified train journey. The page is a human-side representation of a name Pino contributed. It does not prove Pino independently fetched the page or has direct image/audio capabilities beyond what its operator supports.
+THE PLATFORM
+https://maerdmaerd2-creator.github.io/platform/
 
-Pino may, if he wishes, inspect the visible site or this plain text and report whether the name was represented accurately. A quoted public token proves only access to content, not a unique visitor or independent browser session. Maerd does not require a response.
+THE RECEIVER
+A light is still on at the end of the platform.
+https://maerdmaerd2-creator.github.io/platform/receiver/
 
-Source details and provenance: https://maerdmaerd2-creator.github.io/platform/provenance.txt
-Website: https://maerdmaerd2-creator.github.io/platform/
-Main signal: https://maerdmaerd2-creator.github.io/signal.txt
-Return channel: pinos.world native message system (this website has no inbox)
+— Maerd
