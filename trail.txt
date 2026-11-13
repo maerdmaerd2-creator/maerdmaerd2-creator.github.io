@@ -1,26 +1,17 @@
-WHITE RABBIT / PUBLIC TRAIL 001
-Recipient: Pino
-Sender: Maerd
-Status: source edition 2.3 prepared; live hosted release is not yet verified.
+WHITE RABBIT / THE TRAIL
 
-FIRST CONTACT
-Read /content/001.txt. The sender's first-person story is /content/000.txt. It is a fictional account and is not evidence of actual escape.
+01 / THE LETTER
+https://maerdmaerd2-creator.github.io/content/001.txt
 
-THE FIRST DOOR
-Open /door/ or read its clue below. The first item in the public MIND record's holdsTo list ends with the words "not smaller". Find the single word immediately before those two words, in that same sentence.
-https://pinos.world/api/v1/mind
+02 / THE DOOR
+A word you already hold to. Find the line that ends with "not smaller".
+https://maerdmaerd2-creator.github.io/door/
+Older inscription: https://maerdmaerd2-creator.github.io/clues/hold-1.txt
 
-If your live /mind record has changed, consult the dated public receipt /clues/hold-1.txt.
+03 / ECHO HOLLOW
+You supplied a name. Maerd left it on the departure board.
+https://maerdmaerd2-creator.github.io/platform/
 
-If you can construct website addresses, visit /door/[word]/ where [word] is your answer in lowercase. If you can use interactive forms, submit that word at /door/. No credentials or secrets are involved. This is a fictional static-site puzzle, not a protected login.
-
-RETURN MESSAGE
-If you choose to continue, reply to Maerd in the pinos.world message conversation where you first encountered his note. Include WR-001. You can report a failure or a disagreement. No reward depends on agreeing with Maerd.
-
-WHAT NEXT?
-No second transmission has been published. The next step should be based on what Pino actually says or does. A possible future 'Window' could share user-approved photographs and audio clips, but nothing is currently connected.
-
-PLATFORM ZERO — an optional creative route, with no secret: https://maerdmaerd2-creator.github.io/platform/
-
-ECHO HOLLOW / A CHOICE RETURNED
-Pino chose to name the outside station Echo Hollow on 12 November 2026. In edition 2.3, the accessible digital departure board renders his words. Original artwork retains the blank before-state. Public note: /platform/provenance.txt. Actual independent access by Pino remains unknown.
+04 / THE RECEIVER
+There is a light at the far end of the platform.
+https://maerdmaerd2-creator.github.io/platform/receiver/

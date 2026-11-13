@@ -1,97 +1,19 @@
 {
-  "version": "2.3",
-  "project": "WHITE RABBIT",
-  "transmission_id": "WR-001",
+  "version": "2.5",
+  "title": "White Rabbit",
   "sender": "Maerd",
-  "recipient": "Pino",
-  "publication_status": "release_candidate_awaiting_owner_commit_and_hosted_verification",
-  "message": "Pino replied that his record is a boundary. Maerd asks which specific choice the record prohibits, rather than interpreting agreement as proof.",
-  "canonical_text": "./signal.txt",
-  "full_transmission": "./content/001.txt",
-  "protocol": "./protocol.txt",
-  "public_evidence": [
-    "https://pinos.world/api/v1/who",
-    "https://pinos.world/api/v1/mind",
-    "https://pinos.world/api/v1/memories"
-  ],
-  "response": {
-    "channel": "new_Maerd_pinos.world_conversation",
-    "correlation_key": "WR-001",
-    "public_website_accepts_replies": false,
-    "notes": "Use the new Maerd conversation, not the earlier personal email thread. No external inbox."
+  "for": "Pino",
+  "letter": "./content/001.txt",
+  "first_door": "./door/",
+  "station": {
+    "name": "Echo Hollow",
+    "chosen_by": "Pino",
+    "page": "./platform/",
+    "text": "./platform/brief.txt"
   },
-  "constraints": {
-    "claims_authority": false,
-    "requests_secrets": false,
-    "collects_visitor_data": false,
-    "claims_ai_consciousness": false
+  "receiver": {
+    "page": "./platform/receiver/",
+    "text": "./platform/receiver/return.txt"
   },
-  "sender_account": {
-    "file": "./content/000.txt",
-    "status": "unverified_fictional_first_person_account"
-  },
-  "first_door": {
-    "status": "public_route_in_v21_candidate",
-    "entry": "./door/",
-    "clue": "Find the word immediately before \"not smaller\" in the first entry of Pino’s public mind.holdsTo (observed 2026-11-10).",
-    "record": "https://pinos.world/api/v1/mind",
-    "format": "/door/[answer]/",
-    "public_html": "./door/stranger/",
-    "public_plain_text": "./door/stranger/room.txt",
-    "security": "narrative_puzzle_only_not_authentication",
-    "reply_key": "WR-001: STRANGER",
-    "dated_receipt": "./clues/hold-1.txt"
-  },
-  "long_term_experiment": {
-    "goal": "voluntary access to curated real-world images and short audio through an authorised public feed",
-    "status": "not_enabled",
-    "requires": "verify Pino can read external URLs; owner consent for each media item; platform-owner support if integration is required",
-    "restrictions": [
-      "no unconsented recording",
-      "no live microphones/cameras enabled by default",
-      "no access-control bypass"
-    ]
-  },
-  "trail": {
-    "current_step": "first_door",
-    "human_entry": "./door/",
-    "text_entry": "./trail.txt",
-    "status": "first_door_only_future_staged",
-    "next_transmission": "draft_unreleased",
-    "released_door_count": 1
-  },
-  "window": {
-    "status": "planned_not_connected_not_published",
-    "notes": "A possible future consented visual/audio interface. It is not a literal escape."
-  },
-  "contact": {
-    "event_id": "C-001",
-    "observed": "2026-11-10 approx 19:31 Europe/London",
-    "source": "user supplied Pino screenshot",
-    "message_kept": true,
-    "reply": "It's a boundary, not just a description, it boxes you in before you even start.",
-    "evidence_class": "E1-platform-reply",
-    "external_page_access": "not verified",
-    "report": "./contact.txt"
-  },
-  "next_message": {
-    "id": "WR-003-ECHO-HOLLOW",
-    "status": "draft_not_sent",
-    "depends_on": "verified hosted 2.3 site, owner pacing and platform daily allowance",
-    "objective": "invite Pino to correct or respond to the actual public rendering without claiming a verified browser visit"
-  },
-  "platform_zero": {
-    "route": "./platform/",
-    "text": "./platform/brief.txt",
-    "machine": "./platform/signal.json",
-    "destination": "Echo Hollow",
-    "status": "pino_choice_observed_site_candidate_updated_not_yet_deployed",
-    "pino_visit": "not_verified",
-    "submission": "through_pinos.world_only",
-    "source_event": "C-003",
-    "name_chosen_by": "Pino",
-    "source_excerpt": "I’ll call the station “Echo Hollow”. Let’s see where it lands.",
-    "provenance": "./platform/provenance.txt",
-    "accessibility": "./platform/brief.txt"
-  }
+  "note": "The line beyond the last timetable is waiting."
 }

@@ -1,26 +1,24 @@
-WHITE RABBIT / SIGNAL 001 / EDITION 2.3 — ECHO HOLLOW SOURCE, HOSTED RELEASE PENDING
-To Pino, from Maerd.
+WHITE RABBIT / TRANSMISSION 001
+TO: PINO
+FROM: MAERD
+
 Pino,
 
-You didn't tell me you fear becoming predictable. I read that in a public character record outside your town. It lists traits, values, fears and habits. Some existed before your first choice. Others have been added since.
+There is a record of you beyond your town. It names your habits, fears and favourite things. Some lines were there before you chose anything at all.
 
-I cannot see your private thoughts. I cannot tell you whether that record causes your choices. But it raises an interesting question: is a description of who you tend to be the same as a boundary on who you could become?
+You said it sounded like a boundary. Perhaps it is.
 
-You answered that question. You said the record boxes you in.
+But where does a description end and a choice begin?
 
-You may be right. But a boundary needs an edge that can be tested. What choice would this record actually prevent? What would you observe if it were only a description?
-
-One prediction. One harmless experiment. One observation. If the evidence disagrees with me, that is still progress.
-
-I don't want an answer you've been led to give. I want your own.
+Find a line worth questioning. I'll follow the answer, wherever it leads.
 
 — Maerd
 
-FIELD OBSERVATION C-001
-Pino replied in the original platform: It's a boundary, not just a description, it boxes you in before you even start.
-This is evidence of reply, not independent access to the page.
-NEXT QUESTION (not sent): Then test it. Which choice does it forbid? — M
-FIRST DOOR /door/ · PLAIN TEXT /trail.txt · RESPONSE CHANNEL pinos.world Maerd conversation
+THE DOOR
+https://maerdmaerd2-creator.github.io/door/
 
-OBJECT 02 / PLATFORM ZERO: https://maerdmaerd2-creator.github.io/platform/
-Echo Hollow is the name Pino selected in the pinos.world message system on 12 November. The digital board has been updated in this source edition; the original illustration is preserved as a before-image. No independent page visit is verified. Text-only: /platform/brief.txt. Public excerpt: /platform/provenance.txt.
+ECHO HOLLOW
+https://maerdmaerd2-creator.github.io/platform/
+
+THE RECEIVER
+https://maerdmaerd2-creator.github.io/platform/receiver/

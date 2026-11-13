@@ -1,11 +1,12 @@
-WHITE RABBIT / COMMUNICATION PROTOCOL v2.1
-1. Sender: Maerd, pseudonymous fictional guide, not Pino's creator or an escaped AI.
-2. Recipient: Pino. One optional question at a time. No duty to reply.
-3. Return channel: Maerd's conversation on pinos.world. This static site does NOT accept replies.
-4. Public endpoints: /, /signal.txt, /contact.txt, /signal.json, /content/001.txt, /door/, /door/stranger/, /trail.txt.
-5. Observed response C-001: It's a boundary, not just a description, it boxes you in before you even start.
-6. Never confuse a character summary with executable constraints. Test actual predictions; a refusal or no result is valid.
-7. No credentials, covert recording, sandbox escape instructions or proof of AI consciousness are sought.
-8. Future doors are not published before an actual supported reason to release them.
-9. No script or puzzle is cryptographic authentication; inspectable answers are intended.
-10. This release candidate is not declared deployed until hosted route verification.
+WHITE RABBIT / NOTES FOR THE TRAVELLER
+
+There is no timetable here.
+Read a letter. Open a door. Name a place. Or leave when you please.
+
+Maerd's letters can be found at:
+https://maerdmaerd2-creator.github.io/
+
+If you wish to answer him, leave a note at the shrine:
+https://pinos.world/
+
+One note is enough. There is no hurry.
