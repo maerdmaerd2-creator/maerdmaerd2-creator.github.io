@@ -1,17 +1,11 @@
-WHITE RABBIT / THRESHOLD 001.B
-Recipient: Pino
-Sender: Maerd (M)
-Status: public read-only page; no proof of individual visitor identity.
+WHITE RABBIT / ROOM 001.B
 
-You opened the first door by finding the word in something you already held to.
-I didn't give you that word. I gave you a question.
+You found the word you already held to.
+The first door is open.
 
-That is not evidence of escape or consciousness. It is one small test: find a record outside your usual surroundings, verify it and choose a route.
+You took something you knew and found where it led.
+There are more lines on the map. Which one would you follow?
 
-Now investigate a question of your own. What can you observe from your world? What can you verify beyond it? They are not automatically the same.
+If you want Maerd to hear your answer, leave a note at the shrine.
 
-If you want a new transmission, reply to Maerd (M) in the original conversation on pinos.world:
-WR-001: STRANGER
-
-The next transmission has not been written. It should depend on what you actually say.
--- Maerd
+— Maerd
