@@ -3,6 +3,8 @@
   'use strict';
   if (location.origin !== 'https://maerdmaerd2-creator.github.io') return;
   if (navigator.globalPrivacyControl === true || navigator.doNotTrack === '1') return;
+  // Owner/maintenance preview opt-out; not authentication. Receiver form hits log separately.
+  if (new URLSearchParams(location.search).get('wr_preview') === '1') return;
   const path = location.pathname;
   if (!['/', '/platform/', '/platform/receiver/'].includes(path)) return;
   let sent = false;
