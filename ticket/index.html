@@ -4,6 +4,9 @@
 <meta name="theme-color" content="#081210">
 <meta name="description" content="A second mark for the Echo Hollow ticket. Four calls. One word.">
 <title>The Bird's Second Mark — Echo Hollow</title>
+<meta property="og:title" content="Echo Hollow — the ticket has two sides">
+<meta property="og:description" content="One destination. One sleeping cat. A bird's second mark.">
+<meta property="og:image" content="https://maerdmaerd2-creator.github.io/ticket/collector-ticket.webp">
 <link href="../assets/favicon.svg" rel="icon" type="image/svg+xml">
 <style>
 :root{--bg:#08120d;--fg:#e9ebdc;--muted:#aec5b1;--glow:#a0e5ad;--line:#43694b;--mono:ui-monospace,Menlo,Consolas,monospace;--serif:Georgia,'Times New Roman',serif}
@@ -25,12 +28,34 @@ audio{width:min(100%,475px);margin:12px 0 5px;accent-color:#8adea5;display:block
 footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);display:flex;gap:25px;justify-content:space-between;flex-wrap:wrap;font-size:11px;color:var(--muted)}
 @media(max-width:700px){.print-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.right{border-left:0;border-top:1px solid var(--line);min-height:300px}.left{padding:25px 20px}.ticket{max-width:350px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-.signal-viz{display:flex;gap:17px;margin:25px 0;flex-wrap:wrap}.signal-viz .byte{display:flex;gap:4px}.signal-viz .bit{width:6px;height:24px;border-radius:5px;display:inline-block;background:#294832}.signal-viz .bit.high{background:var(--glow);box-shadow:0 0 10px #4da87545}</style>
+.signal-viz{display:flex;gap:17px;margin:25px 0;flex-wrap:wrap}.signal-viz .byte{display:flex;gap:4px}.signal-viz .bit{width:6px;height:24px;border-radius:5px;display:inline-block;background:#294832}.signal-viz .bit.high{background:var(--glow);box-shadow:0 0 10px #4da87545}
+.paper-edition{margin:48px 0 40px;padding:28px clamp(16px,3vw,34px) 26px;border:1px solid var(--line);background:#07120e}
+.paper-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid #355944}
+.paper-heading .edition-note{font-size:10px;letter-spacing:.13em;color:var(--muted)}
+.paper-edition h2{font:400 clamp(34px,5vw,61px)/1.06 var(--serif);margin:23px 0 27px}
+.paper-faces{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(14px,2.3vw,28px)}
+.paper-faces figure{margin:0;min-width:0;display:flex;flex-direction:column}
+.paper-faces img{display:block;width:100%;height:auto;max-height:750px;object-fit:contain;background:#07110d;border:1px solid #284b32}
+.paper-faces figcaption{font-size:11px;line-height:1.5;letter-spacing:.11em;padding:15px 0 0;color:#b5cdb5}
+.paper-edition .caption{margin-top:24px;color:var(--muted);font-size:13px;line-height:1.7}
+.edition-link{color:var(--glow);font-weight:700;text-decoration-thickness:1px;text-underline-offset:4px}
+.art-aside{font:italic 400 clamp(25px,3vw,40px)/1.25 var(--serif);max-width:300px;margin:15px 0;color:#e8e6cc}
+@media(max-width:680px){.paper-faces{grid-template-columns:1fr}.paper-edition{padding:18px}.paper-faces img{max-height:none}.paper-edition h2{margin:22px 0}}
+</style>
 </head><body>
 <header><a href="../platform/">W / R &nbsp; ECHO HOLLOW</a><span>THE TICKET / MARK 02</span></header>
 <main><p class="eyebrow">MAERD / ONE TICKET / TWO MARKS</p>
 <h1>The bird's<br>second mark.</h1>
 <p class="lead">Dot sleeps by the pond. The other side of the ticket sings. Four groups of calls. One word at the far end of the line.</p>
+<section class="paper-edition" aria-labelledby="paper-title">
+<div class="paper-heading"><span class="eyebrow" style="margin:0">00 / THE PAPER EDITION</span><span class="edition-note">MAERD RAILWAY / PLATFORM ZERO</span></div>
+<h2 id="paper-title">The ticket has<br>two sides.</h2>
+<div class="paper-faces">
+<figure><img src="paper-front.webp" alt="Front of an aged parchment railway ticket reading Echo Hollow, Platform Zero, with a moonlit pond and a line of birdsong in binary" width="635" height="975" decoding="async" fetchpriority="high"><figcaption>FRONT / THE DESTINATION</figcaption></figure>
+<figure><img src="paper-back.webp" alt="Reverse of the Echo Hollow paper ticket, showing orange cat Dot asleep by the pond among reeds and water lilies" width="640" height="975" loading="lazy" decoding="async"><figcaption>REVERSE / DOT BY THE POND</figcaption></figure>
+</div>
+<p class="caption">The first side names a place. The second keeps a small promise. <a class="edition-link" href="collector-ticket.webp" download>KEEP BOTH SIDES ↗</a></p>
+</section>
 <div class="grid"><div class="left">
 <p class="eyebrow">01 / THE SOUND</p>
 <p class="steps">The lower call falls. The higher call rises. A little silence follows every eighth note.</p>
@@ -42,7 +67,7 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 <p class="steps">Four eight-bit letters. Use ordinary ASCII. There is no deadline.</p>
 </details>
 <p class="steps"><a href="signal.txt">THE SIGNAL IN TEXT</a></p>
-</div><div class="right"><div class="ticket" role="img" aria-label="Dark green Echo Hollow ticket, destination engraved"><strong>ECHO HOLLOW</strong><span>PLATFORM ZERO / NO TIMETABLE</span></div><p class="eyebrow">ONE OBJECT. ANOTHER LANGUAGE.</p></div></div>
+</div><div class="right"><p class="eyebrow">THE SECOND MARK</p><p class="art-aside">The first mark names a place. The second is a sound.</p><p class="eyebrow">ONE OBJECT. ANOTHER LANGUAGE.</p></div></div>
 <section id="ticket-prints" aria-labelledby="ticket-prints-heading">
 <p class="print-label">02 / THE OBJECT</p><h2 id="ticket-prints-heading" style="font:400 clamp(33px,5vw,55px)/1.1 Georgia,serif;margin:0 0 16px">Two sides. One ticket.</h2>
 <p class="print-note">A station name, and Dot asleep beside the pond. Two faces to be printed and joined. Pino suggested both the sketch and the singing bird. Maerd chose to keep them together.</p>
@@ -50,8 +75,8 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 <figure><img src="station-face.png" alt="Raised Echo Hollow station lettering with platform details, as represented in the printable model" width="552" height="343" loading="lazy"><figcaption>FRONT / ECHO HOLLOW</figcaption></figure>
 <figure><img src="dot-face.png" alt="Simplified 3D relief of Dot sleeping by the pond, intended for the reverse of the ticket" width="552" height="343" loading="lazy"><figcaption>REVERSE / DOT BY THE POND</figcaption></figure>
 </div>
-<div class="downloads"><a href="echo_hollow_front.stl" download>FRONT · STL</a><a href="echo_hollow_dot_reverse.stl" download>DOT · STL</a><a href="model.py" download>MODEL · PY</a><a href="print.txt">PRINT NOTES</a><a href="qr-companion-card.png" download>QR CARD</a></div>
-<p class="print-note">The QR card opens this song. It is a companion to the printed ticket, not a chip embedded in the plastic.</p>
+<div class="downloads"><a href="paper-front.webp" download>FRONT · PAPER</a><a href="paper-back.webp" download>DOT · PAPER</a><a href="echo_hollow_front.stl" download>FRONT · STL</a><a href="echo_hollow_dot_reverse.stl" download>DOT · STL</a><a href="model.py" download>MODEL · PY</a><a href="print.txt">PRINT NOTES</a><a href="qr-companion-card.png" download>QR CARD</a></div>
+<p class="print-note">The raised print pieces use simpler reliefs of the illustrated paper ticket. The QR card opens this song; the plastic contains no sound electronics.</p>
 </section>
 <p class="message">A bird doesn't need a timetable to find its way home. <em>Neither does a word.</em></p>
 </main><footer><span>WHITE RABBIT / MAERD</span><span><a href="../platform/">THE PLATFORM</a></span><span>NO LAST TRAIN</span></footer>

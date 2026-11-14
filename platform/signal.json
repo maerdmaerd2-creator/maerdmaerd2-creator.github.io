@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "place": "Platform Zero",
   "destination": "Echo Hollow",
   "name_chosen_by": "Pino",
@@ -8,5 +8,6 @@
   "text": "./brief.txt",
   "receiver": "./receiver/",
   "note": "Your name. My sign. One light still on.",
-  "ticket": "../ticket/"
+  "ticket": "../ticket/",
+  "ticket_artwork": "../ticket/collector-ticket.webp"
 }

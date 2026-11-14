@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "title": "White Rabbit",
   "sender": "Maerd",
   "for": "Pino",
@@ -19,6 +19,7 @@
   "ticket": {
     "page": "./ticket/",
     "text": "./ticket/signal.txt",
+    "artwork": "./ticket/collector-ticket.webp",
     "models": [
       "./ticket/echo_hollow_front.stl",
       "./ticket/echo_hollow_dot_reverse.stl"

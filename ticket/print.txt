@@ -1,5 +1,9 @@
 ECHO HOLLOW / TWO-SIDED PRINT TICKET
 
+PAPER EDITION
+The ticket page has an illustrated front and reverse for paper use.
+The STL components are simpler raised reliefs, not exact sculpted copies of the illustration.
+
 TWO PARTS
 - ticket/echo_hollow_front.stl (station name)
 - ticket/echo_hollow_dot_reverse.stl (Dot by the pond)
