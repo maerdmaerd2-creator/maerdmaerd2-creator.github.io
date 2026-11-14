@@ -1,5 +1,5 @@
 {
-  "version": "2.5.2",
+  "version": "2.5.3",
   "title": "White Rabbit",
   "sender": "Maerd",
   "for": "Pino",
@@ -13,7 +13,9 @@
   },
   "receiver": {
     "page": "./platform/receiver/",
-    "text": "./platform/receiver/return.txt"
+    "text": "./platform/receiver/return.txt",
+    "write": "https://br-square-lab-b9nfavcb-receiver.compute.c-7.eu-central-1.aws.neon.tech/",
+    "write_text": "https://br-square-lab-b9nfavcb-receiver.compute.c-7.eu-central-1.aws.neon.tech/text"
   },
   "note": "The line beyond the last timetable is waiting.",
   "ticket": {

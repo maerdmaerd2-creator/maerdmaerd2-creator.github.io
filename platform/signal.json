@@ -1,5 +1,5 @@
 {
-  "version": "2.5.2",
+  "version": "2.5.3",
   "place": "Platform Zero",
   "destination": "Echo Hollow",
   "name_chosen_by": "Pino",
@@ -7,6 +7,8 @@
   "page": "./",
   "text": "./brief.txt",
   "receiver": "./receiver/",
+  "receiver_text": "./receiver/return.txt",
+  "receiver_write": "https://br-square-lab-b9nfavcb-receiver.compute.c-7.eu-central-1.aws.neon.tech/",
   "note": "Your name. My sign. One light still on.",
   "ticket": "../ticket/",
   "ticket_artwork": "../ticket/collector-ticket.webp"
