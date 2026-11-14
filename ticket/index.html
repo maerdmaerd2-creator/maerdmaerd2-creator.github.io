@@ -40,6 +40,7 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 .paper-edition .caption{margin-top:24px;color:var(--muted);font-size:13px;line-height:1.7}
 .edition-link{color:var(--glow);font-weight:700;text-decoration-thickness:1px;text-underline-offset:4px}
 .art-aside{font:italic 400 clamp(25px,3vw,40px)/1.25 var(--serif);max-width:300px;margin:15px 0;color:#e8e6cc}
+.relief-details{margin:26px 0 10px;border-top:1px solid var(--line);padding-top:22px}.relief-details summary{font-size:12px;line-height:1.8}.relief-details[open] .print-grid{margin-top:18px}
 @media(max-width:680px){.paper-faces{grid-template-columns:1fr}.paper-edition{padding:18px}.paper-faces img{max-height:none}.paper-edition h2{margin:22px 0}}
 </style>
 </head><body>
@@ -51,8 +52,8 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 <div class="paper-heading"><span class="eyebrow" style="margin:0">00 / THE PAPER EDITION</span><span class="edition-note">MAERD RAILWAY / PLATFORM ZERO</span></div>
 <h2 id="paper-title">The ticket has<br>two sides.</h2>
 <div class="paper-faces">
-<figure><img src="paper-front.webp" alt="Front of an aged parchment railway ticket reading Echo Hollow, Platform Zero, with a moonlit pond and a line of birdsong in binary" width="635" height="975" decoding="async" fetchpriority="high"><figcaption>FRONT / THE DESTINATION</figcaption></figure>
-<figure><img src="paper-back.webp" alt="Reverse of the Echo Hollow paper ticket, showing orange cat Dot asleep by the pond among reeds and water lilies" width="640" height="975" loading="lazy" decoding="async"><figcaption>REVERSE / DOT BY THE POND</figcaption></figure>
+<figure><img src="paper-front.webp?v=2.5.5" alt="Front of an aged parchment railway ticket reading Echo Hollow, Platform Zero, with a moonlit pond and a line of birdsong in binary" width="635" height="975" decoding="async" fetchpriority="high"><figcaption>FRONT / THE DESTINATION</figcaption></figure>
+<figure><img src="paper-back.webp?v=2.5.5" alt="Reverse of the Echo Hollow paper ticket, showing orange cat Dot asleep by the pond among reeds and water lilies" width="640" height="975" loading="eager" decoding="async" fetchpriority="high"><figcaption>REVERSE / DOT BY THE POND</figcaption></figure>
 </div>
 <p class="caption">The first side names a place. The second keeps a small promise. <a class="edition-link" href="collector-ticket.webp" download>KEEP BOTH SIDES ↗</a></p>
 </section>
@@ -69,12 +70,13 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 <p class="steps"><a href="signal.txt">THE SIGNAL IN TEXT</a></p>
 </div><div class="right"><p class="eyebrow">THE SECOND MARK</p><p class="art-aside">The first mark names a place. The second is a sound.</p><p class="eyebrow">ONE OBJECT. ANOTHER LANGUAGE.</p></div></div>
 <section id="ticket-prints" aria-labelledby="ticket-prints-heading">
-<p class="print-label">02 / THE OBJECT</p><h2 id="ticket-prints-heading" style="font:400 clamp(33px,5vw,55px)/1.1 Georgia,serif;margin:0 0 16px">Two sides. One ticket.</h2>
-<p class="print-note">A station name, and Dot asleep beside the pond. Two faces to be printed and joined. Pino suggested both the sketch and the singing bird. Maerd chose to keep them together.</p>
+<p class="print-label">02 / THE RAISED EDITION</p><h2 id="ticket-prints-heading" style="font:400 clamp(33px,5vw,55px)/1.1 Georgia,serif;margin:0 0 16px">For the printer.</h2>
+<p class="print-note">Two simpler raised faces of the same ticket, made to print and join. The parchment illustrations above are the finished paper artwork. These are the model studies.</p>
+<details class="relief-details"><summary>VIEW THE SIMPLIFIED 3D RELIEF PREVIEWS</summary>
 <div class="print-grid">
-<figure><img src="station-face.png" alt="Raised Echo Hollow station lettering with platform details, as represented in the printable model" width="552" height="343" loading="lazy"><figcaption>FRONT / ECHO HOLLOW</figcaption></figure>
-<figure><img src="dot-face.png" alt="Simplified 3D relief of Dot sleeping by the pond, intended for the reverse of the ticket" width="552" height="343" loading="lazy"><figcaption>REVERSE / DOT BY THE POND</figcaption></figure>
-</div>
+<figure><img src="station-face.png" alt="Low-relief STL print model with simplified Echo Hollow lettering" width="552" height="343" loading="lazy"><figcaption>MODEL FRONT / LOW RELIEF</figcaption></figure>
+<figure><img src="dot-face.png" alt="Low-relief STL print model of Dot asleep beside the pond" width="552" height="343" loading="lazy"><figcaption>MODEL REVERSE / LOW RELIEF</figcaption></figure>
+</div></details>
 <div class="downloads"><a href="paper-front.webp" download>FRONT · PAPER</a><a href="paper-back.webp" download>DOT · PAPER</a><a href="echo_hollow_front.stl" download>FRONT · STL</a><a href="echo_hollow_dot_reverse.stl" download>DOT · STL</a><a href="model.py" download>MODEL · PY</a><a href="print.txt">PRINT NOTES</a><a href="qr-companion-card.png" download>QR CARD</a></div>
 <p class="print-note">The raised print pieces use simpler reliefs of the illustrated paper ticket. The QR card opens this song; the plastic contains no sound electronics.</p>
 </section>
