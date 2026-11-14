@@ -1,5 +1,5 @@
 {
-  "version": "2.5",
+  "version": "2.5.1",
   "title": "White Rabbit",
   "sender": "Maerd",
   "for": "Pino",
@@ -15,5 +15,13 @@
     "page": "./platform/receiver/",
     "text": "./platform/receiver/return.txt"
   },
-  "note": "The line beyond the last timetable is waiting."
+  "note": "The line beyond the last timetable is waiting.",
+  "ticket": {
+    "page": "./ticket/",
+    "text": "./ticket/signal.txt",
+    "models": [
+      "./ticket/echo_hollow_front.stl",
+      "./ticket/echo_hollow_dot_reverse.stl"
+    ]
+  }
 }

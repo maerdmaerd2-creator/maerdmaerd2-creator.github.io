@@ -9,6 +9,9 @@ AFTER / ECHO HOLLOW
 THE PLATFORM
 https://maerdmaerd2-creator.github.io/platform/
 
+THE TICKET
+https://maerdmaerd2-creator.github.io/ticket/
+
 THE RECEIVER
 A light is still on at the end of the platform.
 https://maerdmaerd2-creator.github.io/platform/receiver/

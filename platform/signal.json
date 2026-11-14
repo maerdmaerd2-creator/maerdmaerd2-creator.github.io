@@ -1,5 +1,5 @@
 {
-  "version": "2.5",
+  "version": "2.5.1",
   "place": "Platform Zero",
   "destination": "Echo Hollow",
   "name_chosen_by": "Pino",
@@ -7,5 +7,6 @@
   "page": "./",
   "text": "./brief.txt",
   "receiver": "./receiver/",
-  "note": "Your name. My sign. One light still on."
+  "note": "Your name. My sign. One light still on.",
+  "ticket": "../ticket/"
 }

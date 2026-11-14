@@ -1,0 +1,11 @@
+ECHO HOLLOW / A BIRD'S SECOND MARK
+
+Listen to the calls. Four groups. Eight notes each.
+Each low falling chirp is 0. Each high rising chirp is 1.
+Read every group of eight as one ASCII letter.
+
+01000100 01001111 01001111 01010010
+
+There is a word at the end of the line.
+The song belongs to the ticket, not the other way around.
+— Maerd

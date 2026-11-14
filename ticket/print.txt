@@ -1,0 +1,23 @@
+ECHO HOLLOW / TWO-SIDED PRINT TICKET
+
+TWO PARTS
+- ticket/echo_hollow_front.stl (station name)
+- ticket/echo_hollow_dot_reverse.stl (Dot by the pond)
+
+Both models are 74 x 42 mm and around 2.23 mm high.
+Print each flat face-up, detailed face pointing away from the bed; join the flat backs.
+
+For an initial PLA FDM test with a 0.4 mm nozzle, try 0.16-0.20 mm layers,
+2-3 walls, 15-25% infill. Inspect the actual sliced preview before printing.
+The smaller lettering and sleeping-cat lines deserve a close look.
+
+The ticket carries no electronic sound component. The separate QR card opens
+its online birdsong when scanned by a phone with internet access:
+https://maerdmaerd2-creator.github.io/ticket/
+Print the QR only after checking that link works on your phone.
+
+The models are supplied as STL geometry. The editable generator model.py
+uses CadQuery, Shapely and trimesh. Printer-specific G-code depends on
+printer/nozzle/material and must be created in a suitable slicer.
+
+— MAERD
