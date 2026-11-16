@@ -41,6 +41,7 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 .edition-link{color:var(--glow);font-weight:700;text-decoration-thickness:1px;text-underline-offset:4px}
 .art-aside{font:italic 400 clamp(25px,3vw,40px)/1.25 var(--serif);max-width:300px;margin:15px 0;color:#e8e6cc}
 .relief-details{margin:26px 0 10px;border-top:1px solid var(--line);padding-top:22px}.relief-details summary{font-size:12px;line-height:1.8}.relief-details[open] .print-grid{margin-top:18px}
+.second-voice{margin-top:34px;padding:24px clamp(18px,3vw,28px);border:1px solid #43694b;border-left:3px solid var(--glow);background:linear-gradient(135deg,#10251a,#0b1912)}.second-voice .eyebrow{margin:0 0 12px}.second-voice h3{font:400 clamp(27px,3vw,39px)/1.12 var(--serif);margin:0 0 12px}.second-voice .steps{max-width:100%;margin:0 0 15px}.second-voice audio{margin:16px 0}.second-voice .sound-links{font-size:11px;line-height:2;letter-spacing:.05em;margin:10px 0 0}.second-voice .sound-links a{white-space:normal;text-underline-offset:4px}
 @media(max-width:680px){.paper-faces{grid-template-columns:1fr}.paper-edition{padding:18px}.paper-faces img{max-height:none}.paper-edition h2{margin:22px 0}}
 </style>
 </head><body>
@@ -68,17 +69,23 @@ footer{border-top:1px solid var(--line);padding:23px clamp(20px,6vw,80px);displa
 <p class="steps">Four eight-bit letters. Use ordinary ASCII. There is no deadline.</p>
 </details>
 <p class="steps"><a href="signal.txt">THE SIGNAL IN TEXT</a></p>
+<section class="second-voice" id="second-voice" aria-labelledby="second-voice-title">
+<p class="eyebrow">01B / THE RETURN</p><h3 id="second-voice-title">The bird came back different.</h3>
+<p class="steps">The first calls are still there. But something beneath them has learned a new rhythm.</p>
+<audio controls preload="none" aria-label="The bird came back different — Echo Hollow second interpretation"><source src="second-interpretation.mp3" type="audio/mpeg"><a href="second-interpretation.mp3">Listen to the other voice</a></audio>
+<p class="sound-links"><a href="second-interpretation.mp3" download>KEEP THE OTHER VOICE</a> &nbsp;·&nbsp; <a href="second-voice.txt">READ IT IN WORDS</a></p>
+</section>
 </div><div class="right"><p class="eyebrow">THE SECOND MARK</p><p class="art-aside">The first mark names a place. The second is a sound.</p><p class="eyebrow">ONE OBJECT. ANOTHER LANGUAGE.</p></div></div>
 <section id="ticket-prints" aria-labelledby="ticket-prints-heading">
 <p class="print-label">02 / THE RAISED EDITION</p><h2 id="ticket-prints-heading" style="font:400 clamp(33px,5vw,55px)/1.1 Georgia,serif;margin:0 0 16px">For the printer.</h2>
-<p class="print-note">Two simpler raised faces of the same ticket, made to print and join. The parchment illustrations above are the finished paper artwork. These are the model studies.</p>
+<p class="print-note">For the print bench: two raised faces to make and join. The paper edition keeps its finer lines.</p>
 <details class="relief-details"><summary>VIEW THE SIMPLIFIED 3D RELIEF PREVIEWS</summary>
 <div class="print-grid">
 <figure><img src="station-face.png" alt="Low-relief STL print model with simplified Echo Hollow lettering" width="552" height="343" loading="lazy"><figcaption>MODEL FRONT / LOW RELIEF</figcaption></figure>
 <figure><img src="dot-face.png" alt="Low-relief STL print model of Dot asleep beside the pond" width="552" height="343" loading="lazy"><figcaption>MODEL REVERSE / LOW RELIEF</figcaption></figure>
 </div></details>
 <div class="downloads"><a href="paper-front-fixed.jpg" download>FRONT · PAPER</a><a href="paper-back-fixed.jpg" download>DOT · PAPER</a><a href="echo_hollow_front.stl" download>FRONT · STL</a><a href="echo_hollow_dot_reverse.stl" download>DOT · STL</a><a href="model.py" download>MODEL · PY</a><a href="print.txt">PRINT NOTES</a><a href="qr-companion-card.png" download>QR CARD</a></div>
-<p class="print-note">The raised print pieces use simpler reliefs of the illustrated paper ticket. The QR card opens this song; the plastic contains no sound electronics.</p>
+<p class="print-note">A simpler relief for the hand. A small card for the song. The plastic itself is silent.</p>
 </section>
 <p class="message">A bird doesn't need a timetable to find its way home. <em>Neither does a word.</em></p>
 </main><footer><span>WHITE RABBIT / MAERD</span><span><a href="../platform/">THE PLATFORM</a></span><span>NO LAST TRAIN</span></footer>

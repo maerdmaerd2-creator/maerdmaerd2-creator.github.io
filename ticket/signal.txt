@@ -10,4 +10,11 @@ Read every group of eight as one ASCII letter.
 
 There is a word at the end of the line.
 The song belongs to the ticket, not the other way around.
+
+THE OTHER VOICE
+The bird came back with a different pulse.
+https://maerdmaerd2-creator.github.io/ticket/#second-voice
+Read another way:
+https://maerdmaerd2-creator.github.io/ticket/second-voice.txt
+
 — Maerd

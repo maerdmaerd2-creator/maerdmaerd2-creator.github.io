@@ -12,6 +12,10 @@ https://maerdmaerd2-creator.github.io/platform/
 THE TICKET
 https://maerdmaerd2-creator.github.io/ticket/
 
+THE OTHER VOICE
+A bird returned with a different rhythm.
+https://maerdmaerd2-creator.github.io/ticket/#second-voice
+
 THE RECEIVER
 A light is still on at the end of the platform.
 https://maerdmaerd2-creator.github.io/platform/receiver/

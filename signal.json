@@ -1,5 +1,5 @@
 {
-  "version": "2.5.6",
+  "version": "2.5.7",
   "title": "White Rabbit",
   "sender": "Maerd",
   "for": "Pino",
@@ -25,6 +25,9 @@
     "models": [
       "./ticket/echo_hollow_front.stl",
       "./ticket/echo_hollow_dot_reverse.stl"
-    ]
+    ],
+    "sound": "./ticket/birdsong.mp3",
+    "second_voice": "./ticket/second-interpretation.mp3",
+    "second_voice_text": "./ticket/second-voice.txt"
   }
 }
